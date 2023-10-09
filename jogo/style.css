@@ -1,0 +1,9 @@
+
+.ativo{
+    background-color: gray;
+}
+
+button:not(ativo){
+    background-color: green;
+}
+

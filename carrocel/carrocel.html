@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiger family</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="carrosel">
+        <img class="ibagem" src="" alt="Imagem do Carrosel" id="carroselImagem">
+        <button id="anterior">Anterior</button>
+        <button id="proximo">Próxima</button>
+    </div>
+    <script>
+        let imgIndice = 0;
+        const IMAGENS = ['imagem1.png', 'imagem2.png', 'imagem3.png', 'imagem4.png'];
+        const prevButton = document.getElementById('anterior');
+        const nextButton = document.getElementById('proximo');
+
+        var IMG = document.getElementById('carroselImagem');
+
+        function carregar() {
+            IMG.src = IMAGENS[imgIndice];
+        }
+
+        prevButton.addEventListener('click', () =>{
+            if (imgIndice > 0) {
+                --imgIndice
+                //imgIndice = imgIndice -1;
+                carregar();
+            }
+           
+        });
+
+        nextButton.addEventListener('click', () =>{
+            var limite=(IMAGENS.length)-1
+            if (imgIndice < limite){
+                ++imgIndice
+                //imgIndice = imgIndice + 1;
+                carregar();
+            }
+           
+        })
+        carregar();
+
+
+    </script>
+
+</body>
+
+</html>

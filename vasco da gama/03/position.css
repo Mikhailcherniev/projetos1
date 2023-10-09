@@ -1,0 +1,19 @@
+body {
+    height:300vh;
+}
+
+.container {
+    /* position: relative; */
+    width:400px;
+    height:400px;
+    background-color: black;
+}
+
+.box {
+    top: 5vh;
+   position: absolute; 
+    left: 300px;
+    width:200px;
+    height:200px;
+    background-color:burlywood;
+}

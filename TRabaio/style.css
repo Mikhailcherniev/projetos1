@@ -1,0 +1,51 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(99dfcf844b66a6718574460ae45fe82e.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 25px;
+    font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+  }
+  
+  h1 {
+    font: 800 40px 'Poppins', sans-serif;
+  }
+  
+  a {
+    color: orangered;
+  }
+  
+  table {
+    border-collapse: collapse;
+    background-color: rgb(238, 238, 238)   ;
+  }
+  
+  th {
+    background-color: rgb(195, 0, 159);
+    color: white;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 2px black solid;
+    text-align: center;
+    width: 20%;
+  }
+  
+  #free, .pickedBG {
+    background-image: url(image-removebg-preview\ \(22\).png);
+    background-color: rgb(5, 23, 193);
+    color: rgb(255, 255, 255);
+    background-size: cover;
+  }
+
+  

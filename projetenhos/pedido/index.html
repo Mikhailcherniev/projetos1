@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Love</title>
+    <style>
+
+* {
+margin: 0;
+border: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background-image: url(https://media.tenor.com/tmHA-f48bycAAAAC/overwatch2-hammond.gif);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.btn {
+background-color: rgb(0, 0, 0);
+color: white;
+font: 300 30px 'Poppins', sans-serif;
+padding: 15px 30px;
+width: 200px;
+border-radius: 15px;
+cursor: pointer;
+transition: ease-in-out 0.3s;
+}
+
+.tituloPrincipal {
+font: 700 40px 'Poppins', sans-serif;
+}
+
+.titulo {
+text-align: center;
+margin: 50px 0;
+}
+
+.botoes {
+display: flex;
+justify-content: space-between;
+margin: 0 200px;
+}
+</style>
+<script>
+    function sim(){
+        location.href = "https://youtu.be/juqKQdjd2c8?feature=shared"
+    }
+    function esquvo(btn){
+        btn.style.position = ' absolute';
+        btn.style.buttom = posicao(10,80);
+        btn.style.left = pisicao(10, 80);
+
+    }
+    function posicao(min, max){
+        return(Math.random()*(max-min+min))+"%"
+    }
+</script>
+</head>
+<body>
+    <div class="titulo">
+        <h1 class="tituloPrincipal">BOURAAAAAAA FI</h1>
+    </div>
+    <div class="botoes">
+        <div class="botaoS">
+            <button class="btn" onclick="sim()">SIMBOURA</button>
+        </div>
+        <div class="botaoN">
+            <button class="btn"onclick="esquivo(this)" onmouseover="esquvo(this)">NÂO, SOU GAY ASSUMIDO</button>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+
+.ibagem{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 1000px;
+}
+
+button{
+    width: 100px;
+    height: auto;
+    background-image: url(https://img.freepik.com/vetores-premium/fundo-de-textura-de-metal_46250-1743.jpg);
+    height: 40px;
+    width: auto;
+    justify-content: space-around;
+   
+
+
+
+}

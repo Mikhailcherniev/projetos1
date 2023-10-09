@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <button id="op1">clique</button>
+    <button id="op2">clique</button>
+    <button id="op3">clique</button>
+
+   
+       <script>
+        let op1 = document.getElementById('op1');
+        let op2 = document.getElementById('op2');
+        let op3 = document.getElementById('op3');
+
+        op1.addEventListener("click", ()=>{
+            op1.classList.add('ativo');
+            op2.classList.remove('ativo');
+            op3.classList.remove('ativo');
+        })
+
+        op2.addEventListener("click", ()=>{
+            op2.classList.add('ativo');
+            op1.classList.remove('ativo');
+            op3.classList.remove('ativo');
+        })
+
+        op3.addEventListener("click", ()=>{
+            op3.classList.add('ativo');
+            op1.classList.remove('ativo');
+            op2.classList.remove('ativo');
+        })
+
+       </script>
+</body>
+</html>
